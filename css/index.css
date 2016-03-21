@@ -1,0 +1,388 @@
+body {
+  font-family: Lato, "Microsoft YaHei", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em; }
+
+h1 {
+  font-size: 3em;
+  margin: 0 0 0.5em 0;
+  margin-top: 0; }
+
+h2 {
+  font-size: 2em;
+  margin: 0 0 0.2em 0;
+  margin-top: 0; }
+
+h3 {
+  font-size: 1.5em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+
+h4 {
+  font-size: 1.25em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+
+h5 {
+  font-size: 1.2em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+
+h6 {
+  font-size: 1.1em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+
+p {
+  font-size: 1.1em;
+  margin: 0.2em 0; }
+
+ul {
+  font-size: 1.1em; }
+
+a {
+  color: #121212;
+  text-decoration: none;
+  transition: 0.5s; }
+  a:hover {
+    color: #FFF; }
+  a.highlight {
+    color: #FFF; }
+    a.highlight:hover {
+      color: #121212; }
+
+p {
+  color: #121212; }
+
+h1 {
+  text-shadow: 2px 2px #0099CB, 2px 2px #FFFBFC;
+  text-align: center; }
+  h1 + h2, h1 + p {
+    margin-top: -0.2em; }
+
+h2 + h1 {
+  margin-top: 0em; }
+
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
+  color: #121212;
+  font-style: normal; }
+
+#home h1{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  color: #FFFBFC; }
+
+#title {
+  margin: 0.25em 0 0 0; }
+
+#subtitle {
+  margin: 1em 0 0.25em 0;
+  color: #FFFBFC; }
+
+  .none{
+	  display:none;
+  }
+.tag-panel {
+  margin: 15px auto; }
+
+.tag {
+  background-color: RGBA(14, 15, 15, 0.79);
+  color: #FFFBFC;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 3px 8px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  opacity: 0.5; }
+  .tag.expert {
+    opacity: 1; }
+  .tag.familiar {
+    opacity: 0.75; }
+
+.transparent {
+  text-align: left;
+  margin: 0 auto;
+  height: 17em;
+  max-width: 40em;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(255, 255, 255, 0.8) 0 1px 7px 0px inset;
+  background: #202020;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px; }
+
+.transparent pre {
+  white-space: pre-wrap;
+  padding: 0;
+  word-wrap: break-word;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Consolas';
+  font-size: 17px;
+  margin: 0 0 0 -2em;
+/* padding-right: 2em;*/
+  padding-bottom: 1em; }
+
+.bc {
+  color: #66d9ef; }
+
+.gc {
+  color: #a6e22e; }
+
+.rc {
+  color: #f92672; }
+
+.yc {
+  color: #e6db74; }
+
+.content {
+  max-width: 800px;
+  margin: 0 auto; }
+
+#experience_0, #experience_1 {
+  box-shadow: inset rgba(255, 255, 255, 0.07) 1 1px 2px;
+  border-bottom: 1px solid #0063A0;
+  border-width: 4px; }
+
+#experience_0 {
+  border-top: 4px solid #0063A0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  letter-spacing: .1em; }
+
+.section {
+  background-color: #0099CB;
+  color: #FFF;
+  padding: 50px;
+  transition: 0.5s; }
+  .section.initing {
+    display: none; }
+  .section.leaving {
+    background-color: #FFF; }
+
+.center {
+  text-align: center; }
+
+.clearboth {
+  clear: both; }
+
+#jinxin {
+  width: 200px;
+  height: 200px;
+  border: 10px solid #FFFBFC;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%; }
+
+.circle-img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #121212;
+  padding: 15px; }
+  .circle-img:hover {
+    opacity: 0.8; }
+
+.p-img{
+display: inline-block;
+width: 100px;
+height: 100px;
+/*border-radius: 50%;
+background-color: #121212;*/
+padding: 15px;
+}
+
+.row {
+  position: relative; }
+  .row:after {
+    clear: both; }
+
+.col-1 {
+  width: 8.33333%;
+  float: left; }
+
+.col-2 {
+  width: 16.66667%;
+  float: left; }
+
+.col-3 {
+  width: 25%;
+  float: left; }
+
+.col-4 {
+  width: 33.33333%;
+  float: left; 
+}
+
+.col-5 {
+  width: 41.66667%;
+  float: left; }
+
+.col-6 {
+  width: 50%;
+  float: left; }
+
+.col-7 {
+  width: 58.33333%;
+  float: left; }
+
+.col-8 {
+  width: 66.66667%;
+  float: left; }
+
+.col-9 {
+  width: 75%;
+  float: left; }
+
+.col-10 {
+  width: 83.33333%;
+  float: left; }
+
+.col-11 {
+  width: 91.66667%;
+  float: left; }
+
+.col-12 {
+  width: 100%;
+  float: left; }
+
+@media screen and (max-width: 760px) {
+	
+  .col-1 {
+    width: 100%; }
+
+  .col-2 {
+    width: 100%; }
+
+  .col-3 {
+    width: 100%; }
+
+  .col-4 {
+    width: 100%; 
+    text-align: center;}
+
+  .col-5 {
+    width: 100%; }
+
+  .col-6 {
+    width: 100%; }
+
+  .col-7 {
+    width: 100%; }
+
+  .col-8 {
+    width: 100%; }
+
+  .col-9 {
+    width: 100%; }
+
+  .col-10 {
+    width: 100%; }
+
+  .col-11 {
+    width: 100%; }
+
+  .col-12 {
+    width: 100%; }
+
+  #pp-nav {
+    display: none; } 
+	
+	.transparent {
+  display:none;}
+
+	
+	.none{
+	  display:block;
+	  margin-top:1em;
+  }
+	
+	
+	}
+#contact-panel {
+  text-align: center;
+  margin-top: 1em; }
+
+.social-share-element {
+  width: 40px;
+  height: 40px;
+  background-color: #121212;
+   background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  transition: 0.5s;
+  display: inline-block;
+  margin-right: 2px;
+  border-bottom: none;
+  border-radius: 20px; }
+  .social-share-element:hover {
+    background-color: #FFF;
+    border-radius: 5px; }
+  .social-share-element.social-zhihu {
+    background-position: 0 -160px; }
+ 
+  .social-share-element.social-weibo {
+      background-position: 0 -120px; }
+  .social-share-element.social-stackoverflow {
+   background-position: 0 -80px; }
+  .social-share-element.social-qq {
+    background-position: 0 -40px;
+  }
+  .social-share-element.social-github {
+     background-position: 0 0;
+   }
+.social-share-text {
+  font-weight: bold;
+  text-indent: 0; }
+
+.mobile * {
+  text-shadow: none !important; }
+.mobile #jinxin {
+  width: 128px;
+  height: 128px;
+  border: 0; }
+.mobile .circle-img {
+  margin: 20px 10px; }
+.mobile h2 {
+  text-align: center; }
+.mobile h1 {
+  font-size: 2.25em;
+  margin: 0 0 0.5em 0;
+  margin-top: 0; }
+.mobile h2 {
+  font-size: 1.5em;
+  margin: 0 0 0.2em 0;
+  margin-top: 0; }
+.mobile h3 {
+  font-size: 1.125em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+.mobile h4 {
+  font-size: 0.9375em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+.mobile h5 {
+  font-size: 0.9em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+.mobile h6 {
+  font-size: 0.825em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+.mobile p {
+  font-size: 0.88em; }
+.mobile ul {
+  font-size: 0.88em; }
+.mobile .section {
+  padding: 50px 10px; }
+.mobile #profession.section.center {
+  text-align: left; }
+.mobile #project.section {
+  text-align: center; }
+
+/*# sourceMappingURL=index.css.map */
