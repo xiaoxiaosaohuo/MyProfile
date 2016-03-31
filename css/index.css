@@ -55,7 +55,7 @@ p {
   color: #121212; }
 
 h1 {
-  text-shadow: 2px 2px #0099CB, 2px 2px #FFFBFC;
+  text-shadow: 2px 1px 1px #0099CB, 2px 1px 1px #FFFBFC;
   text-align: center; }
   h1 + h2, h1 + p {
     margin-top: -0.2em; }
@@ -88,11 +88,11 @@ ul {
   margin: 15px auto; }
 
 .tag {
-  background-color: RGBA(14, 15, 15, 0.79);
+  background-color: RGBA(0, 15, 15, 0.7);
   color: #FFFBFC;
   border-radius: 3px;
   display: inline-block;
-  padding: 3px 8px;
+  padding: 10px 15px;
   margin-right: 3px;
   margin-bottom: 3px;
   opacity: 0.5; }
