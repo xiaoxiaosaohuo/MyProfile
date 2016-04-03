@@ -120,7 +120,6 @@ ul {
   font-family: 'Consolas';
   font-size: 1.1em;
   margin: 0 0 0 -2em;
-/* padding-right: 2em;*/
   padding-bottom: 1em; }
 
 .bc {
@@ -163,7 +162,7 @@ hr.devide{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  letter-spacing: .1em; }
+  letter-spacing: 1px; }
 
 .section {
   background-color: #0099CB;
