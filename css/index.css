@@ -139,14 +139,25 @@ ul {
   max-width: 800px;
   margin: 0 auto; }
 
-#experience_0, #experience_1 {
+
+hr.devide{
+  width: 40%;
+  margin: auto;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+  box-shadow: 1px 1px 1px 1px rgba(255,225,255,0.6);
+  background-color: rgba(255,255,255,1);
+  border: none;height: 2px;
+}
+
+/*#experience_0, #experience_1 {
   box-shadow: inset rgba(255, 255, 255, 0.07) 1 1px 2px;
   border-bottom: 1px solid #0063A0;
-  border-width: 4px; }
+  border-width: 4px; }*/
 
-#experience_0 {
+/*#experience_0 {
   border-top: 4px solid #0063A0;
-}
+}*/
 
 * {
   box-sizing: border-box;
